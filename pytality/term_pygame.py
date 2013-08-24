@@ -302,7 +302,7 @@ def draw_buffer(source, start_x, start_y):
 
     #lookups we can cache into locals
     #i know, it's such a microoptimization, but this path qualifies as hot
-    local_cell_data, local_sprites, local_screen = cell_data, sprites, screen
+    local_cell_data, local_sprites, local_screen_blit = cell_data, sprites, screen.blit
     local_W, local_H = W, H
     screen_width, screen_height = max_x, max_y
     source_width = source.width
@@ -338,7 +338,7 @@ def draw_buffer(source, start_x, start_y):
                         cell_sprite = cache_sprite(fg, bg, ch)
 
                     #blit the cell to the screen
-                    local_screen.blit(cell_sprite, dest=(x*local_W, y*local_H))
+                    local_screen_blit(cell_sprite, dest=(x*local_W, y*local_H))
 
                     #remember the info for the cache
                     local_cell_data[y][x] = new_data
