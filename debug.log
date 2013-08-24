@@ -1,0 +1,41 @@
+2013-08-23 18:06:27,309 pytality:DEBUG Logging set up successfully
+2013-08-23 18:06:27,354 event:DEBUG registered event 'gamelib.sound.setup_sound' on 'setup'
+2013-08-23 18:06:27,354 gamelib.main:DEBUG Starting up
+2013-08-23 18:06:27,354 pytality.term:DEBUG init(): initializing terminal
+2013-08-23 18:06:27,355 pytality.term.pygame:DEBUG pygame version: '1.9.1release'
+2013-08-23 18:06:27,355 pytality.term:DEBUG Imported term_pygame successfully
+2013-08-23 18:06:27,520 pytality.term:DEBUG resize(): target width=155, height=65
+2013-08-23 18:06:27,558 event:DEBUG firing 'setup' (1 listeners)
+2013-08-23 18:06:27,558 gamelib.sound:DEBUG setting up sound
+2013-08-23 18:06:27,558 gamelib.game:DEBUG Starting Game
+2013-08-23 18:06:27,559 gamelib.game:DEBUG Tick thread started
+2013-08-23 18:06:27,559 gamelib.game:DEBUG Input thread started
+2013-08-23 18:06:27,559 event:DEBUG firing 'setup' (1 listeners)
+2013-08-23 18:06:27,559 gamelib.sound:DEBUG setting up sound
+2013-08-23 18:06:27,559 event:WARNING firing event 'unknown.setup', which has no listeners!
+2013-08-23 18:06:27,559 event:WARNING firing event 'unknown.tick', which has no listeners!
+2013-08-23 18:06:27,559 event:WARNING firing event 'unknown.draw', which has no listeners!
+2013-08-23 18:06:27,565 event:WARNING firing event 'unknown.mouse_motion', which has no listeners!
+2013-08-23 18:06:27,967 gamelib.clickable:DEBUG mouse_down: no target
+2013-08-23 18:06:27,970 event:WARNING firing event 'unknown.mouse_down', which has no listeners!
+2013-08-23 18:06:28,290 gamelib.clickable:DEBUG mouse_down: no target
+2013-08-23 18:06:28,496 gamelib.clickable:DEBUG mouse_down: no target
+2013-08-23 18:06:28,710 gamelib.clickable:DEBUG mouse_down: no target
+2013-08-23 18:06:28,852 gamelib.clickable:DEBUG mouse_down: no target
+2013-08-23 18:06:29,045 gamelib.clickable:DEBUG mouse_down: no target
+2013-08-23 18:06:29,354 gamelib.clickable:DEBUG mouse_down: no target
+2013-08-23 18:06:29,641 pytality.term.pygame:DEBUG key event: {'scancode': 29, 'key': 306, 'unicode': u'', 'mod': 0}
+2013-08-23 18:06:30,115 pytality.term.pygame:DEBUG key event: {'scancode': 17, 'key': 119, 'unicode': u'w', 'mod': 0}
+2013-08-23 18:06:30,115 event:WARNING firing event 'unknown.key', which has no listeners!
+2013-08-23 18:06:30,177 pytality.term.pygame:DEBUG key event: {'scancode': 30, 'key': 97, 'unicode': u'a', 'mod': 0}
+2013-08-23 18:06:30,240 pytality.term.pygame:DEBUG key event: {'scancode': 32, 'key': 100, 'unicode': u'd', 'mod': 0}
+2013-08-23 18:06:30,377 pytality.term.pygame:DEBUG key event: {'scancode': 33, 'key': 102, 'unicode': u'f', 'mod': 0}
+2013-08-23 18:06:30,450 pytality.term.pygame:DEBUG key event: {'scancode': 30, 'key': 97, 'unicode': u'a', 'mod': 0}
+2013-08-23 18:06:30,450 pytality.term.pygame:DEBUG key event: {'scancode': 31, 'key': 115, 'unicode': u's', 'mod': 0}
+2013-08-23 18:06:30,515 pytality.term.pygame:DEBUG key event: {'scancode': 32, 'key': 100, 'unicode': u'd', 'mod': 0}
+2013-08-23 18:06:30,526 pytality.term.pygame:DEBUG key event: {'scancode': 33, 'key': 102, 'unicode': u'f', 'mod': 0}
+2013-08-23 18:06:30,845 pytality.term.pygame:DEBUG key event: {'scancode': 29, 'key': 306, 'unicode': u'', 'mod': 0}
+2013-08-23 18:06:30,983 pytality.term.pygame:DEBUG key event: {'scancode': 46, 'key': 99, 'unicode': u'\x03', 'mod': 64}
+2013-08-23 18:06:30,986 gamelib.main:DEBUG Shutting down
+2013-08-23 18:06:30,987 pytality.term:DEBUG reset(): resetting terminal
+2013-08-23 18:06:30,994 gamelib.game:DEBUG Tick thread shutting down
